@@ -1,0 +1,11 @@
+{
+    "name": "administrator/mulo-addons-tp6",
+    "description": "a thinkphp6 addons plugin",
+    "authors": [
+        {
+            "name": "罗戚洪",
+            "email": "474693310@qq.com"
+        }
+    ],
+    "require": {}
+}
