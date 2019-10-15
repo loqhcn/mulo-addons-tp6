@@ -1,5 +1,5 @@
 {
-    "name": "administrator/mulo-addons-tp6",
+    "name": "mulo/mulo-addons-tp6",
     "description": "a thinkphp6 addons plugin",
     "authors": [
         {
@@ -7,5 +7,13 @@
             "email": "474693310@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "mulo\\": "src"
+        },
+        "files": [
+            "src/command.php"
+        ]
+    }
 }
